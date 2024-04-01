@@ -42,13 +42,13 @@ My Questions
 
 ● What is difference between react.development.js and react.production.js files via CDN?
     production.js files are minimized and optimized.
-    
+
 ● What is async and defer?
     Browser parsing your html page when encounters a script tag it has three scenarios
         1. when no 'async' or 'defer' attributes are present, it halts the parsing fetches the script and    executes it in the browser and then the parsing resumes.
 
-        2. when 'async' is present it fetches the script parallely with the parsing and once fetched halts the parsing, executes the script and resumes parsing.
+        2. when 'async' is present it fetches the script parallely with the parsing and once fetched halts the parsing, executes the script and resumes parsing. when 'async' attribute is used on the script tags, their order of execution cannot be guranteed. This is better to be used when the order of execution does not matter.
 
-        3. when 'defer' is present it fetches the script parallely with the parsing and only after the parsing is completed totally, only then the script is executed.
+        3. when 'defer' is present it fetches the script parallely with the parsing and only after the parsing is completed totally, only then the script is executed. when 'defer' attribute is used on the script tags, their order of execution is guranteed.
 
 
