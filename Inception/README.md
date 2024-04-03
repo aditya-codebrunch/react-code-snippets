@@ -1,5 +1,5 @@
 
-This file is for my first blog post
+This file is My notes
 
 Important points 
 
@@ -40,8 +40,8 @@ My Questions
 ● What is diference between React and ReactDOM
     React js file is for core functionalities and ReactDOM is for DOM functionalities.
 
-● What is difference between react.development.js and react.production.js files via CDN?
-    production.js files are minimized and optimized.
+● What is difference between react.development.js and react production files via CDN?
+    production files are minimized and optimized.
 
 ● What is async and defer?
     Browser parsing your html page when encounters a script tag it has three scenarios
